@@ -8,11 +8,11 @@ let state;
 
 /*
 string => ""
-bigint
+bigint => 1234568n
 bool => true/false
 null => standalone
 undefined =>
-    symbol => unique 
+    symbol => unique  ('123')
 */
 
 
