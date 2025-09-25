@@ -93,3 +93,29 @@ console.log(typeof fruits );  // object
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+
+
+// stack(primitive) and heap (non primitive)
+
+let myrealname = "umerayub"
+ 
+let anothername = myrealname
+ anothername = "RijaAyub"
+
+ console.log(myrealname);
+ console.log(anothername);  // give the copy of myrealname and also the copy is changed not the original 
+ 
+
+ let userone = {
+    name: "umer Ayub",
+    easypaisa: "0324776543",
+}
+
+let usertwo = userone 
+usertwo.easypaisa = '0300926834'
+
+
+console.log(usertwo.easypaisa);
+console.log(userone.easypaisa);
