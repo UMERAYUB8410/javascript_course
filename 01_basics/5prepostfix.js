@@ -1,14 +1,11 @@
-// use the old value first then inremeted y has 23 stored and then the incremented value gooes to the num1 
-// old value first increments then new valuee 
-let numbr1 = 23
- let y = numbr1++
- console.log("numbr1 =", numbr1);     
-console.log("y =",  y);
- 
+// Post-increment: old value assigned first, then incremented
+let numbr1 = 23;
+let y = numbr1++;
+console.log("numbr1 =", numbr1); // 24 (incremented after assignment)
+console.log("y =", y);           // 23 (old value)
 
-// assign before the increment  values first  both increment 
-let num2 = 24
- let z = numbr1++
- console.log("num2 =", num2);
-console.log("z =",  z);
- 
+// Pre-increment: increment first, then assigned
+let num2 = 24;
+let z = ++numbr1; 
+console.log("num2 =", num2); // 24 (unchanged, separate variable)
+console.log("z =", z);       // 25 (incremented value)

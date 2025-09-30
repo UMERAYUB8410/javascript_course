@@ -42,7 +42,7 @@ console.log(typeof age); //number
  const id = Symbol('123')
  const anotherid = Symbol('123')
 
- console.log( id === anotherid);
+ console.log( id === anotherid); // output will be false 
  
 
  const BigNumber = 234567890567n
