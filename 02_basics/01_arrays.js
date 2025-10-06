@@ -17,7 +17,7 @@ console.log(results)
 
 const another_array = [1,2,3 , [4,5,6] , 7 , [8 , 9],[10,11]]
 
-const real_lifearray = another_array.flat(Infinity)
+const real_lifearray = another_array.flat(Infinity) // this ca be use when to many arrys are inside one an does the same thing as concat  
 console.log(real_lifearray)
 
 console.log(Array.isArray('Umer')) //false
